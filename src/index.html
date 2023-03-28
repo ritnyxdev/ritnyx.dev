@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link rel="stylesheet" href="./output.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+            rel="stylesheet"
+        />
+        <title>RitnyxDev</title>
+        <!-- main -->
+        <link rel="stylesheet" href="./style/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav
+                class="bg-white fixed top-0 mx-auto shadow-lg border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900 w-full"
+            >
+                <div
+                    class="container flex flex-wrap items-center justify-between mx-auto w-"
+                >
+                    <a href="#home" class="flex items-center">
+                        <div
+                            class="text-[12px] w-[30px] h-[30px] md:w-[50px] md:h-[50px] bg-[#A53DFF] text-white flex items-center justify-center md:text-[20px] font-[500] rounded-full"
+                        >
+                            R
+                        </div>
+                        <span
+                            class="self-center md:text-[26px] ml-[12px] font-semibold whitespace-nowrap dark:text-white"
+                            >Ritnyx</span
+                        >
+                    </a>
+                    <button
+                        data-collapse-toggle="navbar-default"
+                        type="button"
+                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default"
+                        aria-expanded="false"
+                    >
+                        <span class="sr-only">Open main menu</span>
+                        <svg
+                            class="w-6 h-6"
+                            aria-hidden="true"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                    </button>
+                    <div
+                        class="hidden w-full md:block md:w-auto"
+                        id="navbar-default"
+                    >
+                        <ul
+                            class="flex md:items-center flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 sm:items- dark:border-gray-700"
+                        >
+                            <li>
+                                <a
+                                    href="#home"
+                                    class="block py-2 pl-3 pr-4 text-gray-700 active rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#A53DFF] duration-300 text-[16px] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#A53DFF] duration-300 text-[16px] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >About me</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#A53DFF] duration-300 text-[16px] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#A53DFF] duration-300 text-[16px] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    >Blog</a
+                                >
+                            </li>
+
+                            <li>
+                                <span
+                                    class="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#A53DFF] duration-300 text-[16px] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                    ><i
+                                        class="bx text-[25px]  darkbtn"
+                                    ></i>
+                                </span>
+                            </li>
+
+                            <li class>
+                                <a
+                                    href="https://drive.google.com/u/0/uc?id=1DrObpavfP7GjER_Vwy_pfu77fFywA-23&export=download"
+                                    target="_blank"
+                                    class="bg-[#A53DFF] hover:bg-[#8431CC] py-3 px-6 rounded-lg block text-white md:border-0 duration-300 text-[16px] dark:text-white dark:hover:bg-[#8431CC] dark:hover:text-white md:dark:hover:bg-[#8431CC]"
+                                    >Download CV <i class="bx bxs-download"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="md:mt-[95px] mt-[62px] dark:bg-gray-800 h-[5000px]" id="home">
+            <div class="container mx-auto border-purple-600">
+                <div class="full flex justify-between items-center pt-[221px]">
+                    <div class="left w-2/3 mt-[150px]">
+                        <h1
+                            class="text-[72px] max-w-2/3 max-h-[190px] mb-[24px] dark:text-white"
+                        >
+                            Hello, I'm A'zam Abdusalomov
+                        </h1>
+                        <p
+                            class="text-[18px] text-gray-500 max-w-[648px] max-h-[72px] mb-[24px]"
+                        >
+                            I'm a Freelance Fullstack Developer and Graphic
+                            Designer based in Tashkent, Uzbekistan. I strives to
+                            build immersive and beautiful web applications
+                            through carefully crafted code and user-centric
+                            design.
+                        </p>
+                        <a
+                            href="#"
+                            class="flex justify-center items-center rounded-lg duration-500 hover:bg-purple-700 bg-[#A53DFF] text-white md:w-[126px] md:h-[48px] md:mb-[142px]"
+                        >
+                            Say Hello
+                        </a>
+                    </div>
+                    <div class="right ">
+                        <img src="https://picsum.photos/536/636" class="rounded-xl" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <script>
+        const darkBtn = document.querySelector(".darkbtn");
+        if (
+            localStorage.theme === "dark" ||
+            (!("theme" in localStorage) &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+            document.documentElement.classList.add("dark");
+            darkBtn.classList.add("bx-sun")
+        } else {
+            document.documentElement.classList.remove("dark");
+            darkBtn.classList.add("bx-moon")
+        }
+        // Whenever the user explicitly chooses light mode
+        darkBtn.addEventListener("click", () => {
+            if (
+                localStorage.theme === "dark" ||
+                (!("theme" in localStorage) &&
+                    window.matchMedia("(prefers-color-scheme: dark)").matches)
+            ) {
+                document.documentElement.classList.remove("dark");
+                darkBtn.classList.remove("bx-sun");
+                darkBtn.classList.add("bx-moon");
+                localStorage.theme = "light";
+            } else {
+                document.documentElement.classList.add("dark");
+                localStorage.theme = "dark";
+                darkBtn.classList.remove("bx-moon");
+                darkBtn.classList.add("bx-sun");
+            }
+        });
+    </script>
+</html>

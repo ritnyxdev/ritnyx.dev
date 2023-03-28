@@ -1,0 +1,23 @@
+.active {
+    color: #a53dff !important;
+}
+* {
+    font-family: "Poppins";
+}
+@media only screen and (min-width: 1024px) {
+    /* styles for desktop screens go here */
+    .container {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+*::selection {
+    background-color: #a53dff;
+    color: white;
+}
